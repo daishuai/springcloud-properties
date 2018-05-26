@@ -10,6 +10,11 @@ spring:
 server:
   port: 7100
 
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka1.com:8001/eureka
+
 
 ---
 spring:
@@ -18,3 +23,8 @@ spring:
     name: config-client-test
 server:
   port: 7200
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka2.com:8002/eureka
