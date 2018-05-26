@@ -1,0 +1,20 @@
+﻿spring:
+  profiles:
+  - dev
+
+---
+spring:
+  profiles: dev
+  application:
+    name: config-client-dev
+server:
+  port: 7100
+
+
+---
+spring:
+  profiles: test
+  appliction:
+    name: config-client-test
+server:
+  port: 7200
