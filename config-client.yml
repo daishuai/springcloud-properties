@@ -13,7 +13,7 @@ server:
 
 eureka:
   client:
-    serviceUrl:
+    service-url:
       defaultZone: http://eureka1.com:8001/eureka
 
 
@@ -27,5 +27,5 @@ server:
 
 eureka:
   client:
-    serviceUrl:
+    service-url:
       defaultZone: http://eureka2.com:8002/eureka
