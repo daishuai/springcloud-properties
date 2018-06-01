@@ -8,7 +8,10 @@ spring:
   profiles: dev
   application:
     name: eureka-zuul-dev
-
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1.com:8001/eureka
 zuul:
   routes:
     service1.serviceId: eureka-client1
@@ -26,3 +29,7 @@ zuul:
     app-a.path: /app-a/**
     app-b.serviceId: client-feign
     app-b.path: /app-b/**
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1.com:8001/eureka
