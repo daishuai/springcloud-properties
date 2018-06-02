@@ -1,5 +1,4 @@
 ﻿spring:
-  profiles: test
   appliction:
     name: config-client-test
 server:
