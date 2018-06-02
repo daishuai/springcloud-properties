@@ -1,8 +1,4 @@
 ﻿
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka1.com:8001/eureka
 zuul:
   routes:
     service1.serviceId: eureka-client1
