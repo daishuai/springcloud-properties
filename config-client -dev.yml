@@ -1,0 +1,11 @@
+﻿spring:
+  profiles: dev
+  application:
+    name: config-client-dev
+server:
+  port: 7100
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1.com:8001/eureka
