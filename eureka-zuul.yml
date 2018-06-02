@@ -2,7 +2,7 @@
 zuul:
   routes:
     service1.serviceId: eureka-client1
-    service1.path: /client1/** #代理服务名
+    service1.path: /api-a/** #代理服务名
     service2.serviceId: client-feign
-    service2.path: /feign/**
+    service2.path: /api-b/**
 
