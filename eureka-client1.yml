@@ -1,2 +1,2 @@
 ﻿server:
-  context-path: /rabbit
+  context-path: /client
