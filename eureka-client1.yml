@@ -1,5 +1,5 @@
 ﻿server:
-  context-path: /rabbit
+  context-path: /
 
 hello:
   name: 赵钱孙
