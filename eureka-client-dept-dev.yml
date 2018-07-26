@@ -1,3 +1,5 @@
-﻿username: A New Day Has Coming!
+﻿username: Something Just Like This!
 info:
-  app-name: deptment
+  app-name: ${spring.application.name}
+  instance_id: ${spring.application.instance_id}
+  hostname: ${spring.cloud.client.hostname}
