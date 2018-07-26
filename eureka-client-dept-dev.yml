@@ -1,4 +1,4 @@
 ﻿server:
-  context-path: /dept1
+  context-path: /dept
 info:
   app-name: ${spring.application.name}
