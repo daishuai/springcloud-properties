@@ -1,5 +1,6 @@
-﻿username: Something Just Like This!
+﻿username: 洪荒之力PDD
 info:
   app-name: ${spring.application.name}
   instance_id: ${spring.application.instance_id}
   hostname: ${spring.cloud.client.hostname}
+  customer: ${eureka.instance.instance-id}
