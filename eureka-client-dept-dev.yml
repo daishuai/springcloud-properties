@@ -5,9 +5,3 @@ info:
   hostname: ${spring.cloud.client.hostname}
   customer: ${eureka.instance.instance-id}
   username: ${username}
-spring:
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql:@localhost:3306/springboot?useSSL=false
-    username: root
-    password: root
