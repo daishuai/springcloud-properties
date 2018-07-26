@@ -1,3 +1,3 @@
-﻿username: zhangsan
+﻿username: Tom And Jack
 info:
-  app-name: ${spring.application.name}
+  app-name: eureka-client-department
