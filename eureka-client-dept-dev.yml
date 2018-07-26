@@ -4,7 +4,10 @@ info:
   instance_id: ${spring.application.instance_id}
   hostname: ${spring.cloud.client.hostname}
   customer: ${eureka.instance.instance-id}
-  username: ${username}
+  username: ${spring.datasource.username}
+  password: ${spring.datasource.password}
+  driver-class-name: ${spring.datasource.driver-class-name}
+  url: ${spring.datasource.url}
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
